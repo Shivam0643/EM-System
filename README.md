@@ -2,25 +2,29 @@
 📌 Project Description
 
 This is a frontend-only Employee Management System built using React.
-The application allows users to add, view, edit, delete, search, and sort employees using a clean and simple UI.
+The application allows users to add, view, edit, delete, search, and sort employees through a clean and user-friendly interface.
 
-The project is implemented as a Single Page Application (SPA) and uses React Router for navigation.
-All data is managed on the client side using React state and persisted using localStorage.
+The project is implemented as a Single Page Application (SPA) using react-router-dom for client-side routing.
+Icons used across the UI are implemented using react-icons for better visual clarity and usability.
+All data is handled on the client side using React state and persisted using localStorage.
 
 🚀 Features
 
 View list of employees
 Add a new employee
-Edit existing employee details
+Edit employee details
 Delete an employee
 Search employees by name, role, or email
 Sort employees by name
+Client-side routing using React Router
+Icons using react-icons
 Persistent data using localStorage
-Clean and responsive UI using Tailwind CSS
+Responsive UI with Tailwind CSS
 
 🛠 Tech Stack
 React
-React Router DOM
+react-router-dom
+react-icons
 Tailwind CSS
 JavaScript (ES6+)
 localStorage
@@ -34,36 +38,34 @@ cd employee-management
 npm install
 
 3️⃣ Run the Application
-npm run dev
+npm run start
 
 
-The app will start locally and can be accessed at:
-http://localhost:5173
-
-
-Make sure Node.js is installed on your system.
+The app will run locally at: http://localhost:5173
 
 ✨ Bonus Features Implemented
-React Router
+
+React Router (react-router-dom)
 /employees → Employee list
 /employees/new → Add employee
 /employees/:id → Edit employee
-localStorage integration to persist employee data
-Search functionality
-Sorting by employee name
-Form validation for required fields
-Modular component structure
+localStorage for data persistence
+Search and sorting functionality
+Form validation
+Use of react-icons for better UI/UX
+Modular and scalable component structure
 
 📸 Demo / Screenshots (Optional)
-<img width="1920" height="1011" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/e121aa6e-9789-47ae-97e0-609a2465914b" />
-<img width="1920" height="1014" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/994f5cef-64ee-4f61-b337-72b922611632" />
-<img width="1920" height="1014" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/0a591a6a-8940-4aea-a483-70d8419943ee" />
+<img width="1920" height="1011" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/8823e48b-2673-496c-8d05-34d4e340a127" />
+<img width="1920" height="1014" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/ce9bb80b-35b2-4bfc-a3b7-8e2114955e76" />
+<img width="1920" height="1014" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/b4e09c20-aebb-488a-a210-b3c4d62fa094" />
 
-Notes
-This is a frontend-only project as per the assignment requirement.
-No backend or database is used.
-All CRUD operations are handled using React state.
+📝 Notes
+This is a frontend-only application, as required by the assignment.
+No backend APIs or database are used.
+All CRUD operations are performed using React state.
 
 📤 Submission
 GitHub Repository: <your-github-repo-link>
 The project runs locally using npm run dev
+No additional configuration required
