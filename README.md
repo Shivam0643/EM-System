@@ -66,6 +66,6 @@ No backend APIs or database are used.
 All CRUD operations are performed using React state.
 
 📤 Submission
-GitHub Repository: <your-github-repo-link>
+GitHub Repository: (https://github.com/Shivam0643/EM-System.git)
 The project runs locally using npm run dev
 No additional configuration required
